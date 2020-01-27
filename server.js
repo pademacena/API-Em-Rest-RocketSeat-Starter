@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 //Iniciando o DB
-mongoose.connect('mongodb+srv://admin:admin@cluster0-b2gls.mongodb.net/test?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://user:pass@mogodb', 
     { useNewUrlParser: true, useUnifiedTopology: true }
 );
 requireDir('./src/models');
